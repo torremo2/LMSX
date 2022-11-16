@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Tarefa 5</title>
+</head>
+<body>
+    <h3>Formulario de datos de alta dun usuario</h3>
+    <form action="procesar.html" method="get" name="Formulario1">
+        <fieldset>
+            <legend>Datos persoais</legend>
+            <p>
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" value="" id="nome"/>
+            </p>
+            <p>
+                <label for="apelidos">Apelidos</label>
+                <input type="text" name="apelidos" value="" id="apelidos" maxlength="50"/>
+            </p>
+            <p>
+                <label for="arquivo">Suba unha foto recente do/a usuario/a</label>
+                <input type="file" name="adxunto" id="arquivo"/>
+            </p>
+            <p>
+                <label>¿É a primeira vez que se dá de alta como usuario/a?</label>
+                <input type="radio" name="alta"  value="si" id="si"/>
+                <label for="si">Si</label>
+                <input type="radio" name="alta" value="no" id="no"/>
+                <label for="no">No</label>
+            </p>
+            <p>
+                <label for="provincia">Provincia galega onde está censado/a</label>
+                <select name="provincia" id="provincia">
+                    <option value="" selected="selected" disabled>-selecciona-</option>
+                    <option value="Lugo">Lugo</option>
+                    <option value="A Coruña">A Coruña</option>
+                    <option value="Ourense">Ourense</option>
+                    <option value="Pontevedra">Pontevedra</option>
+                    <option value="Outra">Outra</option>
+                </select>
+            </p>
+            <p>
+                <label>Redes sociais que emprega habitualmente</label>
+                <input name="red_facebook" type="checkbox" value="facebook" id="facebook"/>
+                <label for="facebook">Facebook</label>
+                <input name="red_twitter" type="checkbox" value="twitter" id="twitter"/>
+                <label for="twitter">Twitter</label>
+                <input name="red_pinterest" type="checkbox" value="pinterest" id="pinterest"/>
+                <label for="pinterest">Pinterest</label>
+                <input name="red_instagram" type="checkbox" value="instagram" id="instagram"/>
+                <label for="instagram">Instagram</label>
+                <input name="red_outras" type="checkbox" value="outras" id="outras"/>
+                <label for="outras">Outras</label>
+            </p>
+            <p>
+                <label for="observacions">Observacións</label>
+            </p>
+            <p>
+                <textarea name="observacions" id="observacions" cols="50" rows="4" maxlength="100"></textarea>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Datos de acceso</legend>
+            <p>
+                <label for="usuario">Nome de usuario/a</label>
+                <input type="text" name="usuario" value="" id="usuario" maxlength="10" required/>
+            </p>
+            <p>
+                <label for="contrasinal">Contrasinal</label>
+                <input type="password" name="contrasinal" value="" id="contrasinal" size="10" maxlength="10" required/>
+            </p>
+            <p>
+                <label for="contrasinal">Repite contrasinal</label>
+                <input type="password" name="contrasinal2" value="" id="contrasinal2" size="10" maxlength="10" required/>
+            </p>
+        </fieldset>
+        <br>
+        <input type="reset" name="limpar" value="Borrar datos do formulario"/>
+        <input type="submit" name="gardar" value="Crear conta"/>
+    </form>
+</body>
+</html>
