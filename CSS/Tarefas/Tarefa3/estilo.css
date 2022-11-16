@@ -1,0 +1,30 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    width: 75%;
+    background-image: url("imaxes/borrador.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1{
+    background-image: url("imaxes/madera.jpg");
+    text-align: center;
+    color: #ffcc00;
+}
+
+h2{
+    color: #ffcc00;
+}
+
+img{
+    vertical-align: middle;
+}
+
+#cuadradoazul{
+    margin: auto;
+    border: 2px dotted blue;
+    width: 75%;
+    background-color: rgb(204, 204, 255);
+    padding: 20px;
+}

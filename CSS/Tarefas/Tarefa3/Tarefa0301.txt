@@ -1,0 +1,26 @@
+﻿/* O parágrafo final, igual cá páxina, está centrado e ten de ancho o 75% do ancho do na-
+vegador. O fondo é de cor #ccccff. O borde é punteado (dotted). */
+
+
+Software útil
+
+Os programas útiles para poder seguir este curso son: un editor de texto para escribir as páxinas HTML, servidor web para aloxarlas, validadores de código para certificar que se cumpren os estándares e un navegador para probalas.
+
+Editor
+
+Como editor pode usar calquera editor de texto, pero terá que gravar os arquivos con extensión .htm  ou .html .
+
+Recoméndase o programa gratuíto HTML-Kit, basado en HTML-Tidy, que é un sinxelo e amigable editor orientado a linguaxes Web (HTML, XHTML,XML) pero configurable para calquera linguaxe. Proporciona información sobre as etiquetas, permite detectar código non estándar e incluso transformar código HTML en código XHTML. Dispón de axuda en español.
+
+Para deseñar follas de estilo ou .CSS recoméndase o programa Top Style Lite, que na súa versión reducida (Lite),  é gratuíto e permite deseñar estilos utilizando unha interface amigable.
+
+Validadores de código
+
+Unha operación útil a realizar coas páxinas Web é chequealas para ver se cumplen os estándares de W3C. Unha vez validadas, pódense incluír os iconos de validación e incluso poñer un enlace ao validador para demostralo.
+
+Existen varios iconos:  Icono de validación HTML 4.01  Icono de validacion CSS
+
+Por exemplo, a seguinte imaxe  Valid XHTML 1.0! informa que o código está validado para XHTML 1.0 e o enlace demostra a validación.
+
+Os validadores non solucionan tódolos problemas que poida ter unha páxina, pero poden detectar algúns. A detección dun erro nunha liña de código pode xerar unha falsa interpretación do resto do código por parte do validador, polo que se xenerarán moitas mensaxes de erro. Por este motivo aconséllase solucionar o primeiro erro, volver a validar e repetir o proceso ata que tódolos erros estea arranxados.
+
