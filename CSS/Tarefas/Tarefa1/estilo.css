@@ -1,0 +1,37 @@
+/* Todos os elementos da páxina */
+ body{
+  font: 1em/1.3 Arial, Helvetica, sans-serif;
+}
+
+/* Todos os parágrafos da páxina */
+p{
+  color: #555;
+}
+
+/* Todos os parágrafos contidos en #primeiro */
+#primeiro p{
+  color: #336699;
+}
+
+/* Todos os enlaces da páxina */
+a{
+  color: #cc3300;
+}
+
+/* Os elementos "em" contidos en #primeiro */
+#primeiro em{
+  background: #ffffcc;
+  padding: 0.1em;
+}
+
+/* Todos os elementos "em" da clase "especial" en toda a páxina */
+em.especial{
+  background: #ffcc99;
+  border: 1px solid #ff9900;
+  padding: 0.1em;
+}
+
+/* Elementos "span" contidos en .normal */
+.normal span{
+  font-weight: bold;
+}
